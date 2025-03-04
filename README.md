@@ -59,7 +59,9 @@ plt.show()
 ```
 
 ## Output:
+TRAINING SET
 ![image](https://github.com/user-attachments/assets/8f663c66-2630-4338-b34f-b3ef93ccdcd7)
+TESTING SET
 ![image](https://github.com/user-attachments/assets/225b4f68-e6d7-49ca-83db-909eea8a7485)
 
 
