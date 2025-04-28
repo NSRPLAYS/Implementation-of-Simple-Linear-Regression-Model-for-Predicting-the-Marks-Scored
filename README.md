@@ -59,6 +59,12 @@ plt.show()
 ```
 
 ## Output:
+## head value
+![image](https://github.com/user-attachments/assets/b713db7f-00aa-42e1-b43e-8ff2f5abe776)
+## X values
+![image](https://github.com/user-attachments/assets/e10a4da9-52d9-45f9-9c70-5adbbd277490)
+## Y values
+![image](https://github.com/user-attachments/assets/c4f6d179-3701-437e-b18c-99bc40a5d0a2)
 ## TRAINING SET
 ![image](https://github.com/user-attachments/assets/8f663c66-2630-4338-b34f-b3ef93ccdcd7)
 ## TESTING SET
