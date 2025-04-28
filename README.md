@@ -19,7 +19,11 @@ To write a program to predict the marks scored by a student using the simple lin
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: NAVEEN SAIRAM B
 RegisterNumber: 24009928
- import numpy as np
+
+regressor.fit(x_train,y_train)
+y_pred=regressor.predict(x_test)
+y_pred
+y_test import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error,mean_squared_error
@@ -33,10 +37,6 @@ from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=1/3,random_state=0)
 from sklearn.linear_model import LinearRegression
 regressor=LinearRegression()
-regressor.fit(x_train,y_train)
-y_pred=regressor.predict(x_test)
-y_pred
-y_test
 mse=mean_squared_error(y_test,y_pred)
 print("MSE = ",mse)
 mae=mean_absolute_error(y_test,y_pred)
@@ -63,7 +63,8 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/8f663c66-2630-4338-b34f-b3ef93ccdcd7)
 ## TESTING SET
 ![image](https://github.com/user-attachments/assets/225b4f68-e6d7-49ca-83db-909eea8a7485)
-
+## ERROR:
+![image](https://github.com/user-attachments/assets/9c3a1527-71a8-4285-8251-6b5ae0d5688e)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
